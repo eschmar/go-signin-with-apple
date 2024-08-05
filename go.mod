@@ -1,4 +1,4 @@
-module github.com/Timothylock/go-signin-with-apple
+module github.com/eschmar/go-signin-with-apple
 
 go 1.22
 
