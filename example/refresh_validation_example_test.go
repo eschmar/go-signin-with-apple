@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Timothylock/go-signin-with-apple/apple"
+	"github.com/eschmar/go-signin-with-apple/apple"
 )
 
 /*
