@@ -47,7 +47,7 @@ func New() *Client {
 		validationURL: ValidationURL,
 		revokeURL:     RevokeURL,
 		client: &http.Client{
-			Timeout: 5 * time.Second,
+			Timeout: 20 * time.Second,
 		},
 	}
 	return client
@@ -59,7 +59,7 @@ func NewWithURL(validationURL string, revokeURL string) *Client {
 		validationURL: validationURL,
 		revokeURL:     revokeURL,
 		client: &http.Client{
-			Timeout: 5 * time.Second,
+			Timeout: 20 * time.Second,
 		},
 	}
 	return client
